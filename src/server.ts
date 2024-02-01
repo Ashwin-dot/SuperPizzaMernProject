@@ -1,7 +1,11 @@
-function add(a: number, b: number): number {
-  const c = 10;
+function add(): string {
   // console.log("object");
-  return a + b + c;
+
+  const user = {
+    name: "awhin",
+  };
+
+  return user.name;
 }
 
-add(4, 5);
+add();
