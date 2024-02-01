@@ -1,2 +1,4 @@
 node_modules
 dist
+ignorePatterns: [".eslintrc.cjs", "vite.config.ts"],
+.eslintrc.cjs

@@ -9,17 +9,11 @@ module.exports = {
   ],
   plugins: ["@typescript-eslint"],
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 12,
-    sourceType: "module",
-    // project: 'tsconfig.json',
+    project: true,
     tsconfigRootDir: __dirname,
   },
   root: true,
   rules: {
     "no-console": "error",
-    "dot-not": "error",
   },
 };
