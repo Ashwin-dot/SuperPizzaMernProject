@@ -1,11 +1,7 @@
-function add(): string {
-  // console.log("object");
+import { CONFIG } from "./config";
 
-  const user = {
-    name: "awhin",
-  };
+const PORT = CONFIG.PORT;
 
-  return user.name;
-}
+const name = PORT;
 
-add();
+export default name;
